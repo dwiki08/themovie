@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activity.SettingActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@color/colorPrimaryDark"
+        app:layout_scrollFlags="enterAlways|snap|scroll"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="100dp"/>
+
+    <TextView
+        android:id="@+id/txtReminder1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black21"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideLine"
+        android:text="@string/release_reminder"/>
+
+    <TextView
+        android:id="@+id/txtReminderInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/release_reminder_info"
+        app:layout_constraintTop_toBottomOf="@id/txtReminder1"
+        app:layout_constraintLeft_toLeftOf="@id/txtReminder1"
+        app:layout_constraintRight_toRightOf="@id/guideLine"/>
+
+    <Switch
+        android:id="@+id/switchReleaseReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/guideLine"
+        app:layout_constraintTop_toTopOf="@id/txtReminder1"
+        app:layout_constraintBottom_toBottomOf="@id/txtReminderInfo"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtReminderInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtDaily1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black21"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtReminderInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideLine"
+        android:text="@string/daily_reminder"/>
+
+    <TextView
+        android:id="@+id/txtDailyInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/daily_reminder_info"
+        app:layout_constraintTop_toBottomOf="@id/txtDaily1"
+        app:layout_constraintLeft_toLeftOf="@id/txtReminder1"
+        app:layout_constraintRight_toRightOf="@id/guideLine"/>
+
+    <Switch
+        android:id="@+id/switchDailyReminder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/guideLine"
+        app:layout_constraintTop_toTopOf="@id/txtDaily1"
+        app:layout_constraintBottom_toBottomOf="@id/txtDailyInfo"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtDailyInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/txtLang1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black21"
+        android:fontFamily="@font/roboto_bold"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toBottomOf="@id/txtDailyInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/guideLine"
+        android:text="@string/change_language"/>
+
+    <TextView
+        android:id="@+id/txtLangInfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/change_app_language"
+        app:layout_constraintTop_toBottomOf="@id/txtLang1"
+        app:layout_constraintLeft_toLeftOf="@id/txtReminder1"
+        app:layout_constraintRight_toRightOf="@id/guideLine"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGray"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@id/txtLangInfo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageButton
+        android:id="@+id/btnLanguage"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        tools:src="@drawable/english_flag"
+        android:scaleType="centerInside"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/change_language"
+        app:layout_constraintLeft_toLeftOf="@id/guideLine"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/txtLang1"
+        app:layout_constraintBottom_toBottomOf="@id/txtLangInfo"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

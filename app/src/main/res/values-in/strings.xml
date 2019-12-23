@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TheMovie</string>
+    <string name="default_language">en-US</string>
+
+    <string name="movies">Film</string>
+    <string name="tv_shows">Acara TV</string>
+    <string name="change_language">Ganti bahasa</string>
+    <string name="poster_image">Gambar poster</string>
+    <string name="overview">Sinopsis</string>
+    <string name="image_background">Gambar latar belakang</string>
+    <string name="favorite">Disukai</string>
+    <string name="added_to_favorite">Ditambahkan ke daftar disukai.</string>
+    <string name="removed_from_favorite">Dihapus dari daftar disukai.</string>
+    <string name="appwidget_text">Film disukai</string>
+    <string name="empty_text">Daftar kosong</string>
+    <string name="search">Cari</string>
+    <string name="search_movie">Cari film…</string>
+    <string name="search_tv_show">Cari acara tv…</string>
+    <string name="not_found">Tidak ditemukan</string>
+    <string name="cant_connect">Tidak dapat terhubung ke server</string>
+    <string name="change_app_language">Ganti bahasa aplikasi</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="daily_reminder_info">Pengingat harian untuk kembali ke aplikasi setiap 7 pagi</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="release_reminder_info">Pengingat menampilkan film yang rilis hari ini setiap 8 pagi</string>
+    <string name="setting">Pengaturan</string>
+    <string name="come_back">Kembali ke aplikai TheMovie.</string>
+    <string name="has_released">rilis hari ini.</string>
+    <string name="new_release">Rilis Film Baru</string>
+
+</resources>

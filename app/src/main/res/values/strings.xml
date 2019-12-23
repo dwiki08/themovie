@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TheMovie</string>
+    <string name="default_language">en-US</string>
+
+    <string name="movies">Movies</string>
+    <string name="tv_shows">TV Show</string>
+    <string name="change_language">Change language</string>
+    <string name="poster_image">Poster image</string>
+    <string name="overview">Overview</string>
+    <string name="image_background">Image background</string>
+    <string name="favorite">Favorite</string>
+    <string name="added_to_favorite">Added to favorite list.</string>
+    <string name="removed_from_favorite">Removed from favorite list.</string>
+    <string name="appwidget_text">Favorite movie</string>
+    <string name="empty_text">Empty list</string>
+    <string name="search">Search</string>
+    <string name="search_movie">Search movie…</string>
+    <string name="search_tv_show">Search tv show…</string>
+    <string name="not_found">Not found</string>
+    <string name="cant_connect">Can\'t connect to server</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="release_reminder_info">Reminder showing the movie that released today at 8 AM</string>
+    <string name="daily_reminder_info">Daily reminder to return to app at 7 AM</string>
+    <string name="setting">Setting</string>
+    <string name="change_app_language">Change app language</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="come_back">Come back to the app.</string>
+    <string name="new_release">New Movie Release</string>
+    <string name="has_released">has released today.</string>
+
+</resources>
