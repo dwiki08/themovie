@@ -1,2 +1,2 @@
-# themovie
-Dicoding MADE Submissions
+# TheMovie
+Belajar Fundamental Aplikasi Android - Submissions
