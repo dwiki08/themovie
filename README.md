@@ -1,2 +1,2 @@
 # TheMovie
-Belajar Fundamental Aplikasi Android - Submissions
+Dicoding Belajar Fundamental Aplikasi Android - Submissions
